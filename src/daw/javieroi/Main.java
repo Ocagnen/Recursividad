@@ -58,7 +58,7 @@ public class Main {
 
     }
 
-    public static boolean burbuja(int[] a, int posicion, int numeroevaluar) {
+    public static void burbuja(int[] a, int posicion, int numeroevaluar) {
 
         int tmp;
 
@@ -67,15 +67,15 @@ public class Main {
             a[numeroevaluar] = a[posicion];
             a[posicion] = tmp;
         } else if (posicion < a.length-1) {
-            return burbuja(a, posicion + 1, numeroevaluar);
+            burbuja(a, posicion + 1, numeroevaluar);
         }
         
         
 
         if (numeroevaluar < a.length - 1) {
-            return burbuja(a, numeroevaluar+1, numeroevaluar + 1);
+            burbuja(a, numeroevaluar+1, numeroevaluar + 1);
         }
         
-        return false;
+        return;
     }
 }
