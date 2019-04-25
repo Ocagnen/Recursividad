@@ -17,12 +17,12 @@ public class Main {
         
         System.out.println("--------------------------------");
 
-        int[] array = {1, 2, 3, 3, 2, 1};
-        int[] array2 = {1, 3, 2, 6, 9, 7};        
+        int[] array = {1, 2, 3, 3, 2, 1};            
         boolean prueba = Main.simetrico(array, 0);
         System.out.println(prueba);
         
         System.out.println("---------------------------------------");
+        int[] array2 = {1, 3, 2, 6, 9, 7};    
         Main.burbuja(array2, 0,0);
 
         for (int i : array2) {
@@ -75,4 +75,10 @@ public class Main {
         }       
         
     }
+    
+    /*
+    Método iterativo para pasar de decimal a binario
+    
+    Luego hacer mismo método recursivo
+    */
 }
