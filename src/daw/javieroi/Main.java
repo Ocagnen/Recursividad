@@ -68,14 +68,11 @@ public class Main {
             a[posicion] = tmp;
         } else if (posicion < a.length-1) {
             burbuja(a, posicion + 1, numeroevaluar);
-        }
-        
-        
+        }        
 
         if (numeroevaluar < a.length - 1) {
             burbuja(a, numeroevaluar+1, numeroevaluar + 1);
-        }
+        }       
         
-        return;
     }
 }
