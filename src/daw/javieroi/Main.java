@@ -35,6 +35,7 @@ public class Main {
         Main.binarioIt(3);
         System.out.println("-------------------");
         Main.binarioR(10);
+        System.out.println("");
 
     }
 
